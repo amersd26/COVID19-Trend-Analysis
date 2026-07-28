@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large datasets
+data/covid-data.csv
+data/covid19_cleaned.csv
+
+# Large ML model
+data/models/
+*.pkl
